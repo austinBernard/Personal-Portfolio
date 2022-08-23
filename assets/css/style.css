@@ -945,7 +945,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: var(--main-bg-color);
+  background-image: linear-gradient(to right top, #1d044e, #27065f, #320871, #3e0b83, #4a0d95, #5117a3, #5820b2, #5e29c1, #5f38d0, #6045de, #6052ed, #5f5ffb);;
   opacity: .8;
   position: fixed;
   left: 0;
