@@ -1,9 +1,9 @@
 /* Color Palette */
 :root {
-  --main-bg-color:#100720;
+  --main-bg-color:#02012b;
   --secondary-color:#31087B;
-  --third-color:#bb057e;
-  --fourth-color:#05c46b;
+  --third-color:#2ee4eb;
+  --fourth-color:#22d0e7;
 }
 
 
@@ -38,7 +38,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 top right no-repeat;
+  background: url("../img/space-background-edit.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: #51f09b;
+  color: #22eaf1;
   text-decoration: none;
 }
 
@@ -87,15 +87,15 @@ button:before {
   content: "";
   background: linear-gradient(
     45deg,
-    #762ffa,
-    #190246,
-    #31087B,
-    #4d2a8a,
-    #31087B,
-    #251442,
-    #513e72,
-    #2c105e,
-    #4e15b6
+    #381dd3,
+    #021268,
+    #011570,
+    #442d97,
+    #3c30ee,
+    #0f032b,
+    #1e7de9,
+    #1c105e,
+    #0f0d8d
   );
   position: absolute;
   top: -2px;
@@ -129,7 +129,7 @@ button:after {
   position: absolute;
   width: 100%;
   height: 100%;
-  background:linear-gradient(to bottom, #530686 5%, #14011f 100%);
+  background:linear-gradient(to bottom, #2605b9 5%, #0f013d 100%);
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -489,7 +489,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #cacaca;
   font-family: "Poppins", sans-serif;
 }
 
@@ -498,7 +498,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: var(--fourth-color);
   margin: 4px 10px;
 }
 
@@ -934,7 +934,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: var(--fourth-color);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -964,7 +964,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background-image: linear-gradient(to right top, #1d044e, #27065f, #320871, #3e0b83, #4a0d95, #5117a3, #5820b2, #5e29c1, #5f38d0, #6045de, #6052ed, #5f5ffb);;
+  background-image: linear-gradient(to left bottom, #1bb7c6, #00a5be, #0092b3, #0080a7, #006e99, #006293, #00568d, #004a85, #003f84, #003381, #00267c, #031776);
   opacity: .8;
   position: fixed;
   left: 0;
@@ -1061,7 +1061,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.747);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
