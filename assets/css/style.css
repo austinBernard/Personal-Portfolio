@@ -1037,9 +1037,17 @@ section .container {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .info-box span {
+  color: #fff;
+  border-bottom: 2px solid var(--fourth-color);
+  padding-bottom: 6px;
 }
 
 .contact .info-box i.bx {

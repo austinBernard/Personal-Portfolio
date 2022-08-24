@@ -1,3 +1,4 @@
-# Personal Portfolio
+#Readme
 
-Still working on setting up the "contact me" page correctly
+First big project!
+A personal portfolio to display my past/present/future projects.
